@@ -17,8 +17,6 @@ class MainActivity : AppCompatActivity() {
     var y=20
 
 
-
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -26,9 +24,6 @@ class MainActivity : AppCompatActivity() {
 
         val sound = MediaPlayer.create(this, R.raw.sound1)
         sound.start()
-
-
-
 
 
         tlacidlo.setOnClickListener{
@@ -46,11 +41,6 @@ class MainActivity : AppCompatActivity() {
             val xy = Intent(this, Kala::class.java)
             startActivity(xy)
         }
-
-
-
-
-
 
 
         object : CountDownTimer(160000,1500){

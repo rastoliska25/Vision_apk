@@ -65,13 +65,11 @@ class AC2 : AppCompatActivity() {
         }.start()
 
 
-
         nazad.setOnClickListener {
             setContentView(R.layout.activity_main)
             sound.stop()
             val yy = Intent(this, MainActivity::class.java)
             startActivity(yy)
-
 
         }
 

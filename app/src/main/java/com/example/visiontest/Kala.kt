@@ -22,8 +22,6 @@ class Kala : AppCompatActivity() {
         var pole = arrayListOf<Long>()
 
 
-
-
         object : CountDownTimer(160000,100){   // prvá fáza
             override fun onFinish() {
                 x2.setText("VISION")
@@ -51,14 +49,9 @@ class Kala : AppCompatActivity() {
              val y5=(0..100).random()
              x17.setText(pole[y5].toString())
 
-
       }
 
         }.start()
-
-
-
-
 
 
 
@@ -89,12 +82,9 @@ class Kala : AppCompatActivity() {
                 val y5=(0..100).random()
                 x18.setText(pole[y5].toString())
 
-
             }
 
         }.start()
-
-
 
 
         object : CountDownTimer(160000,110){   //fáza 3
@@ -124,15 +114,9 @@ class Kala : AppCompatActivity() {
                 val y5=(0..100).random()
                 x19.setText(pole[y5].toString())
 
-
             }
 
         }.start()
-
-
-
-
-
 
 
 
@@ -163,14 +147,9 @@ class Kala : AppCompatActivity() {
                 val y5=(0..100).random()
                 x20.setText(pole[y5].toString())
 
-
             }
 
         }.start()
-
-
-
-
 
 
         nazad2.setOnClickListener {
@@ -181,12 +160,7 @@ class Kala : AppCompatActivity() {
 
         }
 
-
-
     }
-
-
-
 
 
 }
